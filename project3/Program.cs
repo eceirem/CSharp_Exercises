@@ -12,24 +12,115 @@ namespace project3
         static void Main(string[] args)
         {
             //ehliyet alıp almama
-            /*
+            
             Console.WriteLine("Kaç Yaşındasınız? ");
             int age = Convert.ToInt32(Console.ReadLine());                     
             Adult(age);
-            
+            //hangi programlama dilini kullanıyor ona göre mesaj basalım
             ProgramLang();
-            
+            //counter ve string uygulaması. kaç soru doğru bildim, kaç soru bilemedim
             Questions();
-            
-
+            //and operatorü
             LogIn();
-            
-
+            //and ve or operatörü, ikizler misin değil misin
             Burclar();
-            */
+            
             //if else if else her şey tek satırda olacak
-            InLineif();
+            InLineif();            
+            
+            //kullanıcıdan 2 sayı isteyelim ve sayılar arası karşılaştırmayı inlineif kullanarak yapalım.
+            compareNumbers();
+            
+            //kullanıcıdan 2 sayı al, çift sayı ise karesini; tek sayı ise küpünü al.
+            Operation();
+            
+            //switch-case kullanımı 
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            SwitchUsing();
+            
+            //beden kitle indeksi hesaplayıp kilo durumunu yazdırmak için switch-case kullanalım.
+            bmi();
             Console.ReadLine();
+        }
+
+        private static void bmi()
+        {
+            Console.WriteLine("Please enter your height (cm): ");
+            double height = Convert.ToInt32(Console.ReadLine());
+            height = height / 100;
+            Console.WriteLine("Please enter your kilo: ");
+            int kilo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter your gender: (f/m)");
+            string gender = Console.ReadLine();
+            double index = kilo / (height * height);
+            switch (gender)
+            {
+                case "f":
+                    if (index < 19) {
+                        Console.WriteLine("Olması gerekenden zayıfsınız hanımefendi, diyetisyene başvurun ve kas kütlenizi arttıracak egzersizler yapın.");
+                    }
+                    else if (index >= 19 && index <=24){
+                        Console.WriteLine("Olması gereken kilodasınız hanımefendi. Bunu koruyun!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Olması gerekenden kilolusunuz hanımefendi, diyetisyene başvurun ve kas kütlenizi arttıracak egzersizler yapın.");
+
+                    }
+                    break;
+
+                case "m":
+                    Console.WriteLine(index < 20 ? "Zayıf" : index < 25 ? "İdeal Kilo" : "Fazla kilo");
+                    break;
+
+                default:
+                    Console.WriteLine("Geçerli bir cinsiyet giriniz.");
+                    break;
+
+            }
+
+        }
+
+        private static void SwitchUsing()
+        {
+            //fazla eşitlik kullanıyorsak switch kullanırız.
+            ConsoleColor renk = Console.BackgroundColor;
+            switch (renk)
+            {
+                case ConsoleColor.Black:
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                case ConsoleColor.Yellow:
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    break;
+                default:
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    break;
+            }
+        }
+
+        private static void Operation()
+        {
+            Console.WriteLine("Lütfen sayı giriniz: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if(num % 2 == 0)
+            {
+                Console.WriteLine("Bu sayı çifttir. Bu yüzden karesi alınacak: " + Math.Pow(num, 2));
+            }
+            else
+            {
+                Console.WriteLine("Bu sayı tektir. Bu yüzden küpü alınacak: " + Math.Pow(num, 3));
+            }
+        }
+
+        private static void compareNumbers()
+        {
+            Console.WriteLine("Please enter the first number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter the second number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            string result = num1 > num2 ? "1. sayı daha büyük" : num1 < num2 ? "2. sayı daha büyük" : "iki sayı eşit";
+            Console.WriteLine(result);
         }
 
         private static void InLineif()
@@ -44,10 +135,8 @@ namespace project3
             Console.Write("Plaka kodu: ");
             string country = input_country == "Ankara" ? "06" : input_country == "ankara" ? "06" : "0";
             Console.WriteLine(country);
-
-            //kullanıcıdan 2 sayı isteyelim 
-
         }
+
 
         private static void Burclar()
         {
