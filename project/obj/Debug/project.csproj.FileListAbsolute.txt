@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\project\bin\Debug\project.exe.config
+C:\ece\coding\codes\C#\project\bin\Debug\project.exe
+C:\ece\coding\codes\C#\project\bin\Debug\project.pdb
+C:\ece\coding\codes\C#\project\obj\Debug\project.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\project\obj\Debug\project.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\project\obj\Debug\project.exe
+C:\ece\coding\codes\C#\project\obj\Debug\project.pdb
