@@ -16,6 +16,7 @@ namespace project
             Console.CursorLeft = 30;
             Console.CursorTop = 10;
             Console.WriteLine("Deneme");
+            Console.Beep();
             Console.ReadKey();
         }
     }
