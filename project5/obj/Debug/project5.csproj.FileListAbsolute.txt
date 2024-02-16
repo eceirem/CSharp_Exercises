@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\bin\Debug\project5.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\bin\Debug\project5.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\bin\Debug\project5.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\obj\Debug\project5.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\obj\Debug\project5.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\obj\Debug\project5.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project5\obj\Debug\project5.pdb

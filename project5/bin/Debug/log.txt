@@ -1,0 +1,4 @@
+ASUS
+16.02.2024 17:33
+this is not avaliable number.   konum: project5.Program.Loglama() C:\ece\coding\codes\C#\CSharp_Exercises\project5\Program.cs içinde: satır 37
+******************************
