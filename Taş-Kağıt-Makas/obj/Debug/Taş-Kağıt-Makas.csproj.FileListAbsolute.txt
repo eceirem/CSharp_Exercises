@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\bin\Debug\Taş-Kağıt-Makas.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\bin\Debug\Taş-Kağıt-Makas.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\bin\Debug\Taş-Kağıt-Makas.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\obj\Debug\Taş-Kağıt-Makas.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\obj\Debug\Taş-Kağıt-Makas.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\obj\Debug\Taş-Kağıt-Makas.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\Taş-Kağıt-Makas\obj\Debug\Taş-Kağıt-Makas.pdb
