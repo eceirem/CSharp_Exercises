@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\bin\Debug\project7.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\bin\Debug\project7.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\bin\Debug\project7.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\obj\Debug\project7.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\obj\Debug\project7.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\obj\Debug\project7.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project7\obj\Debug\project7.pdb
