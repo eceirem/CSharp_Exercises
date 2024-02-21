@@ -1,0 +1,80 @@
+﻿using RealLifeApp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RealLifeApp
+{
+    internal interface RealLifeInterface
+    {
+        void Add();
+        void Update();
+        void Delete();
+    }
+    class SqlServerCustomerDal : RealLifeInterface
+    {
+        public void Add()
+        {
+            Console.WriteLine("Sql added.");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("Sql deleted.");
+
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("Sql updated.");
+
+        }
+    }
+    class OracleServerCustomerDal : RealLifeInterface
+    {
+        public void Add()
+        {
+            Console.WriteLine("Oracle added.");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("Oracle deleted.");
+
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("Oracle updated.");
+
+        }
+    }
+    class MySqlServerCustomerDal : RealLifeInterface
+    {
+        public void Add()
+        {
+            Console.WriteLine("MySql added.");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("MySql deleted.");
+
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("MySql updated.");
+
+        }
+    }
+    class CustomerManager
+    {
+        public void Add(RealLifeInterface database)
+        {
+            database.Add();
+        }
+    }
+}

@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\bin\Debug\RealLifeApp.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\bin\Debug\RealLifeApp.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\bin\Debug\RealLifeApp.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\obj\Debug\RealLifeApp.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\obj\Debug\RealLifeApp.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\obj\Debug\RealLifeApp.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\RealLifeApp\obj\Debug\RealLifeApp.pdb

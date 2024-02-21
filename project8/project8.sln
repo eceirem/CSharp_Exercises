@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project8", "project8.csproj", "{7DD03373-6186-4665-8B55-0FA77B2E1FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealLifeApp", "..\RealLifeApp\RealLifeApp.csproj", "{551E99B5-C91E-4C76-BEF1-2EACE40B4A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD03373-6186-4665-8B55-0FA77B2E1FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD03373-6186-4665-8B55-0FA77B2E1FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD03373-6186-4665-8B55-0FA77B2E1FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD03373-6186-4665-8B55-0FA77B2E1FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551E99B5-C91E-4C76-BEF1-2EACE40B4A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551E99B5-C91E-4C76-BEF1-2EACE40B4A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551E99B5-C91E-4C76-BEF1-2EACE40B4A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551E99B5-C91E-4C76-BEF1-2EACE40B4A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB49D33-F136-42C7-BDFE-A9739EA436B3}
+	EndGlobalSection
+EndGlobal
