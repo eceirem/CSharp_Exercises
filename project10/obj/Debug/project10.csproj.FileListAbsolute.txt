@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\bin\Debug\project10.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\bin\Debug\project10.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\bin\Debug\project10.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\obj\Debug\project10.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\obj\Debug\project10.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\obj\Debug\project10.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\project10\obj\Debug\project10.pdb

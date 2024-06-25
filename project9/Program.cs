@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Linq; //usefull  for array methods
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,33 +10,29 @@ namespace project9
     {
         static void Main(string[] args)
         {
-            Person[] people = new Person[3]
+            
+            Person[] people = new Person[2]
             {
                 new Customer
                 {
-                    FirstName = "Ece",
+                    FirstName = "Ece İrem",
                     City = "Ankara",
                     Id = 1,
-                    LastName = "Filiz"
+                    LastName = "Şişer"
                 },
-                new Student
-                {
-                    FirstName = "Doğukan",
-                    Id = 2,
-                    LastName = "Filiz",
-                    Department = "Computer Engineering"
-                },
+         
                 new Person
                 {
                     FirstName = "Çiğdem",
                     LastName = "Şişer",
-                    Id = 3,
+                    Id = 2,
                 },
             };
             foreach (Person person in people)
             {
                 Console.WriteLine(person.FirstName);
             }
+            
             Console.ReadLine();
 
         }

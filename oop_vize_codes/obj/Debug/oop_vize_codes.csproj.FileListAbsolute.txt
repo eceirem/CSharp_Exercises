@@ -1,0 +1,7 @@
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\bin\Debug\oop_vize_codes.exe.config
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\bin\Debug\oop_vize_codes.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\bin\Debug\oop_vize_codes.pdb
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\obj\Debug\oop_vize_codes.csproj.AssemblyReference.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\obj\Debug\oop_vize_codes.csproj.CoreCompileInputs.cache
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\obj\Debug\oop_vize_codes.exe
+C:\ece\coding\codes\C#\CSharp_Exercises\oop_vize_codes\obj\Debug\oop_vize_codes.pdb
